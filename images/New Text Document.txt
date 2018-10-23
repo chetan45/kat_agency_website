@@ -1,0 +1,16 @@
+For create new branch : 
+
+git status
+git checkout master
+git checkout -b [chetan_09] New branch Name
+
+
+
+
+-Click GIt Base Here
+-git status : dispay modified status all
+-git add . (if all)
+-git status (should be green)
+-git commit -m "pages name, payment page, variable & code implementation" (local commit)
+-git status (should display noting to coomit)
+- git push -u mcheckout [current branch name]
