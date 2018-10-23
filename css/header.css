@@ -1,0 +1,111 @@
+/********************************************************
+Import Variables & Mixins   
+/********************************************************/
+/********************************************************
+Basic Color Variables
+/********************************************************/
+/********************************************************
+Theme Color Variables
+/********************************************************/
+/********************************************************
+Social Media
+/********************************************************/
+/********************************************************
+Font family & Size Variables
+/********************************************************/
+/********************************************************
+Width Variables
+/********************************************************/
+/********************************************************
+Text Align Variables
+/********************************************************/
+/********************************************************
+Path Specification Variables
+/********************************************************/
+/********************************************************
+Transition Mixin   
+/********************************************************/
+/********************************************************
+Padding Mixin  
+/********************************************************/
+/********************************************************
+Margin Mixin  
+/********************************************************/
+/********************************************************
+Header SCSS  
+/********************************************************/
+header {
+  text-align: right;
+  float: right; }
+  header li {
+    float: left; }
+  header ul {
+    float: left;
+    margin-right: 270px; }
+  header nav {
+    position: relative; }
+  header li {
+    margin-left: 10px; }
+    header li a {
+      color: #b82228;
+      padding: 5px 20px;
+      font-size: 18px;
+      text-transform: uppercase;
+      font-weight: 400;
+      position: relative; }
+      header li a:hover, header li a:active, header li a:focus {
+        text-decoration: none;
+        transition: all 0.3s ease 0s; }
+      header li a.active {
+        color: #1891c3; }
+  header .nav-expand {
+    position: absolute;
+    right: 50px;
+    z-index: 9;
+    position: absolute;
+    right: 50px;
+    z-index: 9;
+    top: -20px;
+    text-align: center; }
+    header .nav-expand a {
+      background: #1891c3;
+      font-size: 20px;
+      color: #ffffff;
+      padding: 15px 30px;
+      text-transform: uppercase;
+      position: relative;
+      display: inline-block;
+      line-height: 30px;
+      transition: all 0.3s ease 0s; }
+      header .nav-expand a:hover {
+        text-decoration: none;
+        transition: all 0.3s ease 0s;
+        background: #1579a2;
+        padding: 15px 30px 25px 30px; }
+    header .nav-expand .mobile-only {
+      display: none; }
+  header nav .nav-link:before, header nav .nav-link:after {
+    content: '';
+    position: absolute;
+    transition: transform .5s ease; }
+  header nav .nav-link > span:before, header nav .nav-link > span:after {
+    content: '';
+    position: absolute;
+    transition: transform .5s ease; }
+  header nav .nav-link:before, header nav .nav-link:after {
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border-style: solid;
+    border-color: #0883a4; }
+  header nav .nav-link:before {
+    border-width: 1px 0 1px 0;
+    transform: scaleX(0); }
+  header nav .nav-link:after {
+    border-width: 0 1px 0 1px;
+    transform: scaleY(0); }
+  header nav .nav-link:hover:before, header nav .nav-link:hover:after {
+    transform: scale(1, 1); }
+
+/*# sourceMappingURL=header.css.map */

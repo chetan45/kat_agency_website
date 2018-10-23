@@ -1,0 +1,427 @@
+/********************************************************
+Import Variables & Mixins   
+/********************************************************/
+
+@import "variable";
+@import "mixin";
+
+/********************************************************/
+/* Max-Width 1200PX     *********************************/
+/********************************************************/
+
+@media (max-width: 1200px) {
+    .hero-block {
+        width: 350px;
+        margin-left: 25px;
+    }
+    header {
+        .nav-expand {
+            right: 25px;
+        }
+        li a {
+            font-size: 16px;
+            padding: 5px 15px;
+        }
+        ul {
+            margin-right: 200px;
+        }
+    }
+    .hero-block .services {
+        h2 {
+            font-size: 24px;
+        }
+        ul li a {
+            font-size: 16px;
+            min-width: 265px;
+        }
+    }
+    .video-container {
+        margin-right: 35px;
+        margin-top: -309px;
+    }
+    .inquiry-container .inquiry-text {
+        margin-top: 150px;
+    }
+    .video-play img {
+        width: 300px;
+    }
+    .play-btn img {
+        width: 80px;
+    }
+    .secation-a .request-section h2 {
+        font-size: 24px;
+    }
+    .about-images img {
+        width: 80%;
+    }
+    .secation-b {
+        .about-images {
+            .img-e {
+                right: 232px;
+            }
+            .img-d {
+                top: 57px;
+            }
+            .img-c {
+                top: 190px;
+                right: 84px;
+            }
+            .img-b {
+                top: 190px;
+            }
+            .img-f {
+                left: 33px;
+                top: 302px;
+            }
+        }
+        .about-content {
+            h1 {
+                font-size: 40px;
+                padding-bottom: 20px;
+            }
+            .about-points li {
+                font-size: 14px;
+            }
+        }
+        .about-points ul {
+            padding-bottom: 15px;
+        }
+        .about-content .about-points h2 {
+            font-size: 23px;
+        }
+    }
+    img.w-tab-img{
+        width: 325px;
+        margin-top: 25px;
+    }
+}
+
+/********************************************************/
+/* Max-Width 992PX     *********************************/
+/********************************************************/
+
+@media (max-width: 992px) {
+        .services {
+            display: none;
+        }
+        header .nav-expand .mobile-only {
+            display: block;
+            position: absolute;
+            top: 10px;
+            left: 7px;
+        }
+        .hero-block {
+            background: transparent;
+            width: auto;
+            left: 0;
+            right: 0;
+            margin-left: 0;
+        }
+        header ul {
+            display: none;
+        }
+        .hero-block .logo img {
+            width: 150px;
+            margin-left: 0;
+        }
+        header .nav-expand a {
+            font-size: 0;
+            line-height: 9px;
+            padding: 20px 25px;
+            &:hover {
+                padding: 20px 25px;
+            }
+        }
+        .video-play img {
+            width: 250px;
+        }
+        .play-btn img {
+            width: 40px;
+            top: 5px;
+            float: left;
+        }
+        .video-container {
+            margin-top: -60px;
+            .video-play .play-btn {
+                top: 56%;
+                margin-top: -58px;
+                left: 57%;
+                margin-left: -60px;
+                padding: 20px;
+            }
+        }
+        .inquiry-container {
+            float: left;
+            width: 60%;
+            .inquiry-text {
+                margin-top: 5px;
+                margin-left: 15px;
+                p {
+                    color: #1891c3;
+                    font-size: 25px;
+                    line-height: 35px;
+                }
+            }
+        }
+        .secation-a {
+            padding: 25px 0;
+            .request-section h2 {
+                font-size: 22px;
+            }
+            .requestlink-bg a {
+                font-size: 20px;
+            }
+            .container {
+                margin-top: 0;
+            }
+            .requestlink-bg {
+                margin-top: -5px;
+            }
+        }
+        .secation-b {
+            padding: 25px 0;
+        }
+        .carousel .header-text {
+            top: 25%;
+            h2 {
+                font-size: 35px;
+            }
+            h3 {
+                line-height: 30px;
+                padding: 20px 0;
+            }
+        }
+        .secation-b .about-images {
+            .img-d {
+                top: 120px;
+            }
+            .img-e {
+                top: 65px;
+            }
+            .img-c {
+                right: 0;
+                top: 295px;
+            }
+            .img-f {
+                left: 23px;
+                top: 360px;
+            }
+            .img-b {
+                top: 200px;
+            }
+        }
+        #page{display: block}
+        #carousel-example-generic{margin-top: -40px;}
+        .hero-block{top: 30px}
+        header .nav-expand {
+        top: -50px;
+    }
+    img.w-tab-img{
+        display: none;
+    }
+    .content section{
+        width: 100%;
+        padding: 20px 20px 30px 40px;
+    }
+    .secation-c{
+        padding: 40px 0 60px 0;
+    }
+}
+
+/********************************************************/
+/* Max-Width 767PX     *********************************/
+/********************************************************/
+
+@media (max-width: 767px) {
+    .carousel .header-text {
+        top: 28%;
+        h2 {
+            font-size: 25px;
+        }
+        h3 {
+            line-height: 26px;
+            font-size: 18px;
+            padding: 10px 0;
+        }
+        a {
+            font-size: 18px;
+            padding: 5px 30px;
+        }
+    }
+    #light {
+        margin-left: -150px;
+        max-width: 300px;
+        max-height: 200px;
+    }
+    video#VisaChipCardVideo {
+        width: 300px !important;
+    }
+    .video-container .video-play .play-btn {
+        top: 95%;
+        left: 88%;
+        padding: 10px;
+    }
+    .video-play img {
+        width: 100px;
+    }
+    .play-btn img {
+        width: 20px;
+    }
+    .inquiry-container {
+        width: 75%;
+    }
+    .video-container {
+        margin-top: -55px;
+    }
+    .request-section {
+        margin-bottom: 15px;
+    }
+    .secation-b .about-images {
+        .img-a, .img-e, .img-d, .img-f {
+            display: none;
+        }
+    }
+    .about-images img {
+        width: 65%;
+    }
+    .secation-b .about-images .img-c {
+        right: 0;
+        top: -55px;
+        left: 0;
+        margin: 0px auto;
+        text-align: center;
+        position: relative;
+        width: 100%;
+    }
+    .about-content {
+        float: left;
+        width: 100%;
+        margin-top: 0;
+    }
+    .secation-b {
+        .about-content {
+            h1, h3 {
+                text-align: center;
+            }
+        }
+        .about-images .img-b {
+            display: block;
+            position: relative;
+            float: right;
+            top: 3px;
+        }
+    }
+    .secation-c{
+        padding: 40px 0 60px 0;
+    }
+    .tabs{
+        padding: 20px;
+    }
+}
+
+/********************************************************/
+/* Max-Width 576PX     *********************************/
+/********************************************************/
+
+@media (max-width: 576px) {
+    .hero-block .logo img {
+        width: 100px;
+        padding: 0 10px 10px 10px;
+    }
+    .carousel .header-text {
+        top: 34%;
+        h2 {
+            font-size: 20px;
+            padding-bottom: 20px;
+        }
+        h3 {
+            display: none;
+        }
+        a {
+            font-size: 14px;
+            padding: 0px 15px;
+        }
+    }
+    .inquiry-container .inquiry-text {
+        p {
+            font-size: 16px;
+            line-height: 25px;
+        }
+        a {
+            font-size: 16px;
+        }
+        p span {
+            font-size: 20px;
+            display: inline-block;
+            padding-left: 0;
+        }
+    }
+    .video-container {
+        margin-top: 0;
+        width: 70%;
+        margin-right: 15%;
+    }
+    .video-play img {
+        width: 100%;
+    }
+    .inquiry-container {
+        width: 100%;
+        padding-bottom: 10px;
+    }
+    .play-btn img {
+        width: 40px;
+    }
+    .video-container .video-play .play-btn {
+        top: 60%;
+        left: 60%;
+        padding: 10px;
+    }
+    .about-images img {
+        width: 50%;
+    }
+    .secation-b .about-images .img-b {
+        top: -10px;
+    }
+    .about-content {
+        margin-top: -20px;
+    }
+    .inquiry-container .inquiry-text {
+        text-align: center;
+    }
+    .content section {
+        padding: 10px;
+    }
+    .secation-c .about-more{
+        min-width: 208px;
+    }
+}
+
+/********************************************************/
+/* Container Section    *********************************/
+/********************************************************/
+
+@media (min-width:768px) {
+    .container {
+        width: 750px;
+    }
+}
+@media (min-width:992px) {
+    .container {
+        width: 970px;
+    }
+}
+@media (min-width:1024px) {
+    .container {
+        width: 994px;
+    }
+}
+@media (min-width:1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+@media (min-width:1260px) {
+    .container {
+        width: 1260px;
+    }
+}

@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA;;0DAE0D;ACF1D;;0DAE0D;AAK1D;;0DAE0D;AAK1D;;0DAE0D;AAO1D;;0DAE0D;AAY1D;;0DAE0D;AAK1D;;0DAE0D;AAO1D;;0DAE0D;ACvD1D;;0DAE0D;AAS1D;;0DAE0D;AAY1D;;0DAE0D;AFpB1D;;0DAE0D",
+"sources": ["../scss/footer.scss","../scss/variable.scss","../scss/mixin.scss"],
+"names": [],
+"file": "footer.css"
+}

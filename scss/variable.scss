@@ -1,0 +1,59 @@
+/********************************************************
+Basic Color Variables
+/********************************************************/
+
+$white-color:     #ffffff;
+$black-color:     #000000;
+
+/********************************************************
+Theme Color Variables
+/********************************************************/
+
+$theme-color:             		#b82228 !default; 
+$basic-link-hover-color:  		$theme-color;
+
+/********************************************************
+Social Media
+/********************************************************/
+
+$facebook-bg:                    #3b5997;
+$facebook-bg-hover:              #354e88;
+$youtube-bg:                     #de4c33;
+$youtube-bg-hover:               #cd3e27;
+
+/********************************************************
+Font family & Size Variables
+/********************************************************/
+
+$font-size-high:    			30px;
+$font-size-medium:    			20px;
+$font-size-primary:   			18px;
+$font-size-regular:   			16px;
+$font-size-default:   			14px; 
+$font-size-smallar:   			12px;
+$font-size-smallest:  			10px;
+$font-family-default: 			'Rubik',sans-serif;
+$font-awesome-family:       FontAwesome;
+
+/********************************************************
+Width Variables
+/********************************************************/
+
+$width-full:  100%;
+$width-half:  50%;
+
+/********************************************************
+Text Align Variables
+/********************************************************/
+
+$text-left:  left;
+$text-right: right;
+$text-center: center;
+$text-justify: 	justify;
+ 
+/********************************************************
+Path Specification Variables
+/********************************************************/
+
+$marketing-banner: 			    url(../images/marketing.jpg);
+$service-bg-dots: 			    url(../images/service-bg.png);

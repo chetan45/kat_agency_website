@@ -1,0 +1,42 @@
+/********************************************************
+Transition Mixin   
+/********************************************************/
+
+@mixin transition-3s {
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+/********************************************************
+Padding Mixin  
+/********************************************************/
+
+@mixin padding-rl-15 {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+@mixin padding-mrl-15 {
+    padding-right: -15px;
+    padding-left: -15px;
+}
+
+
+/********************************************************
+Margin Mixin  
+/********************************************************/
+
+@mixin margin-mrl-15 {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+@mixin margin-rl-auto {
+    margin-right: auto;
+    margin-left: auto;
+}
+@mixin margin-mrt-15 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+

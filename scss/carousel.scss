@@ -1,0 +1,112 @@
+/********************************************************
+Import Variables & Mixins   
+/********************************************************/
+
+@import "variable";
+
+/********************************************************
+Carousel SCSS  
+/********************************************************/
+
+.carousel-indicators .active {
+    background-color: #2980b9;
+}
+.carousel {
+    .carousel-inner img {
+        width: 100%;
+        max-height: 650px;
+    }
+    .carousel-control {
+        width: 0;
+        &.left, &.right {
+            opacity: 1;
+            filter: alpha(opacity = 100);
+            background-image: none;
+            background-repeat: no-repeat;
+            text-shadow: none;
+        }
+        &.left span, &.right span {
+            padding: 15px;
+        }
+        .glyphicon-chevron-left, .glyphicon-chevron-right, .icon-prev, .icon-next {
+            position: absolute;
+            top: 45%;
+            z-index: 5;
+            display: inline-block;
+        }
+        .glyphicon-chevron-left, .icon-prev {
+            left: 0;
+        }
+        .glyphicon-chevron-right, .icon-next {
+            right: 0;
+        }
+        &.left span, &.right span {
+            background-color: transparent;
+        }
+        &.left span:hover, &.right span:hover {
+            opacity: .7;
+            filter: alpha(opacity = 70);
+        }
+    }
+    .header-text {
+        position: absolute;
+        top: 20%;
+        left: 1.8%;
+        right: auto;
+        width: 96.66666666666666%;
+        color: $white-color;
+        h2 {
+            font-size: 40px;
+            width: 100%;
+        }
+        h3 {
+            font-size: 24px;
+            line-height: 36px;
+            font-weight: 400;
+            padding: 30px 0;
+            width: 100%;
+        }
+        a {
+            font-size: 24px;
+            text-transform: uppercase;
+            padding: 10px 40px;
+            border-radius: 1px;
+            transition: all 0.7s ease 0s;
+            font-weight: 400;
+            &:hover {
+                background: $white-color;
+                color: #b82228;
+            }
+        }
+    }
+    .btn-min-block {
+        min-width: 170px;
+        line-height: 26px;
+    }
+    .btn-theme {
+        color: $white-color;
+        background-color: transparent;
+        border: 2px solid $white-color;
+        margin-right: 15px;
+        &:hover {
+            color: $black-color;
+            background-color: $white-color;
+            border-color: $white-color;
+        }
+    }
+    .carousel-indicators {
+        li {
+            height: 15px;
+            width: 15px;
+        }
+        .active {
+            height: 17px;
+            width: 17px;
+        }
+    }
+}
+#carousel-example-generic {
+    position: relative;
+    max-width: 1260px;
+    z-index: 1;
+}
